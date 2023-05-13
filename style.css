@@ -1,0 +1,61 @@
+body {
+  background-color: #333;
+}
+
+button {
+  padding: 20px 20px;
+  font-size: 20px;
+  border: none;
+  font-weight: bold;
+  background-color: #B2F6FFC4;
+  color: #000;
+  margin: 5px;
+  width: calc((100% - 70px) / 4); 
+}
+
+/* Style the first row of buttons */
+.button-row:nth-child(1) {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-height: 120px;
+  overflow: hidden;
+}
+
+/* Style the second row of buttons */
+.button-row:nth-child(2) {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-height: 120px;
+  overflow: hidden;
+}
+
+/* Style the main content area */
+main {
+  max-width: 800px; 
+  margin: 0 auto; 
+  padding: 20px; 
+  box-sizing: border-box; 
+}
+
+.text-row {
+  color: white;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#sText {
+  margin-right: auto;
+}
+
+#rText {
+  margin-left: auto;
+}
